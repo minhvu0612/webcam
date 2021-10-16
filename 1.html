@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Display Webcam Stream</title>
+ 
+<style>
+#container {
+	margin: 0px auto;
+	width: 500px;
+	height: 375px;
+	border: 10px #333 solid;
+}
+#videoElement {
+	width: 500px;
+	height: 375px;
+	background-color: #666;
+}
+
+button{
+	margin-top: 100px;
+	width: 100px;
+	height: 50px;
+}
+</style>
+</head>
+ 
+<body>
+<div id="container">
+	<video autoplay="true" id="videoElement">
+	
+	</video>
+	<button onclick="start()">start</button>
+	<button onclick="stop()">stop</button>
+</div>
+<script type="text/javascript" src="1.js"></script>
+</body>
+</html>
